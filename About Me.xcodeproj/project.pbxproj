@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A91B483213C578000372B28 /* WorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A91B482213C578000372B28 /* WorkViewController.swift */; };
+		7A91B485213C664400372B28 /* HobbyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A91B484213C664400372B28 /* HobbyTableViewCell.swift */; };
+		7A91B487213C666500372B28 /* HobbyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A91B486213C666500372B28 /* HobbyTableViewController.swift */; };
 		7AA41CB8213BEF780010E5E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA41CB7213BEF780010E5E5 /* AppDelegate.swift */; };
-		7AA41CBA213BEF780010E5E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA41CB9213BEF780010E5E5 /* ViewController.swift */; };
 		7AA41CBD213BEF780010E5E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA41CBB213BEF780010E5E5 /* Main.storyboard */; };
 		7AA41CBF213BEF7B0010E5E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AA41CBE213BEF7B0010E5E5 /* Assets.xcassets */; };
 		7AA41CC2213BEF7B0010E5E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA41CC0213BEF7B0010E5E5 /* LaunchScreen.storyboard */; };
+		7AA41CCA213BFE3A0010E5E5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA41CC9213BFE3A0010E5E5 /* MainViewController.swift */; };
+		7AE1ECA1213C0477003FEEFB /* MeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE1ECA0213C0477003FEEFB /* MeData.swift */; };
+		7AE1ECA3213C0DCD003FEEFB /* SkillsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE1ECA2213C0DCD003FEEFB /* SkillsTableViewController.swift */; };
+		7AE1ECA7213C0F5C003FEEFB /* SkillsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE1ECA6213C0F5C003FEEFB /* SkillsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A91B482213C578000372B28 /* WorkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkViewController.swift; sourceTree = "<group>"; };
+		7A91B484213C664400372B28 /* HobbyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyTableViewCell.swift; sourceTree = "<group>"; };
+		7A91B486213C666500372B28 /* HobbyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyTableViewController.swift; sourceTree = "<group>"; };
 		7AA41CB4213BEF780010E5E5 /* About Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "About Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AA41CB7213BEF780010E5E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7AA41CB9213BEF780010E5E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7AA41CBC213BEF780010E5E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7AA41CBE213BEF7B0010E5E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AA41CC1213BEF7B0010E5E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7AA41CC3213BEF7B0010E5E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AA41CC9213BFE3A0010E5E5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		7AE1ECA0213C0477003FEEFB /* MeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeData.swift; sourceTree = "<group>"; };
+		7AE1ECA2213C0DCD003FEEFB /* SkillsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsTableViewController.swift; sourceTree = "<group>"; };
+		7AE1ECA6213C0F5C003FEEFB /* SkillsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +67,14 @@
 			isa = PBXGroup;
 			children = (
 				7AA41CB7213BEF780010E5E5 /* AppDelegate.swift */,
-				7AA41CB9213BEF780010E5E5 /* ViewController.swift */,
 				7AA41CBB213BEF780010E5E5 /* Main.storyboard */,
+				7A91B486213C666500372B28 /* HobbyTableViewController.swift */,
+				7A91B484213C664400372B28 /* HobbyTableViewCell.swift */,
+				7AE1ECA2213C0DCD003FEEFB /* SkillsTableViewController.swift */,
+				7AE1ECA6213C0F5C003FEEFB /* SkillsTableViewCell.swift */,
+				7A91B482213C578000372B28 /* WorkViewController.swift */,
+				7AA41CC9213BFE3A0010E5E5 /* MainViewController.swift */,
+				7AE1ECA0213C0477003FEEFB /* MeData.swift */,
 				7AA41CBE213BEF7B0010E5E5 /* Assets.xcassets */,
 				7AA41CC0213BEF7B0010E5E5 /* LaunchScreen.storyboard */,
 				7AA41CC3213BEF7B0010E5E5 /* Info.plist */,
@@ -135,8 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AA41CBA213BEF780010E5E5 /* ViewController.swift in Sources */,
+				7AE1ECA1213C0477003FEEFB /* MeData.swift in Sources */,
 				7AA41CB8213BEF780010E5E5 /* AppDelegate.swift in Sources */,
+				7AA41CCA213BFE3A0010E5E5 /* MainViewController.swift in Sources */,
+				7A91B485213C664400372B28 /* HobbyTableViewCell.swift in Sources */,
+				7A91B487213C666500372B28 /* HobbyTableViewController.swift in Sources */,
+				7A91B483213C578000372B28 /* WorkViewController.swift in Sources */,
+				7AE1ECA7213C0F5C003FEEFB /* SkillsTableViewCell.swift in Sources */,
+				7AE1ECA3213C0DCD003FEEFB /* SkillsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
