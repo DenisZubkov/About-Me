@@ -38,10 +38,7 @@ class MainViewController: UIViewController {
         let skills = ["Программирование", "MBA", "Кайдзен", "Agile"]
         let work = Work(name: "ООО ТБМ", staff: "директор", dept: "Департамент ИТ")
         let hobby = ["Swift","Formula One","Lego","Arduino"]
-        let wife = Person(surname: "Гришанова", name: "Юлия", place: "Королев", birthday: "30.10.1973", photo: "Julia")
-        let son = Person(surname: "Зубков", name: "Максим", place: "Москва", birthday: "09.09.1999", photo: "Max")
-        let family = ["Жена": wife, "Сын" : son]
-        meData = MeData(person: person, skills: skills, work: work, hobby: hobby, family: family)
+        meData = MeData(person: person, skills: skills, work: work, hobby: hobby)
         
     }
     /*

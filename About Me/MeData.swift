@@ -27,7 +27,6 @@ struct MeData {
     var skills: [String]
     var work: Work
     var hobby: [String]
-    var family: [String : Person]
 }
 
     var meData: MeData?
